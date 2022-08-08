@@ -1,11 +1,31 @@
-# Start your own "Can of Books" App
+# Can of Books
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Author**: Hodaifa Zawahreh
 
-## What can books do?
+**Version**: 1.0.0
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+**[live URL](https://hod-canofbooks.netlify.app/)**
 
-## Use this template
+## Overview
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+This App helps the user explore a collection of books
+## Getting Started
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
+## Architecture
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+- ReactJS
+- Axios
+- ExpressJS
+- React-Bootstrap
+- MongoDB
+- Mongoose
+- Auth0
+
+## Change Log
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+- 220808 Application now has a functional login and authentication feature
+
+## Credit and Collaborations
