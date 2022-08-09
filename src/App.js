@@ -11,6 +11,7 @@ import {
 import Profile from './Profile';
 import { withAuth0 } from '@auth0/auth0-react';
 import Welcome from './Welcome';
+import About from './About'
 
 
 
@@ -35,6 +36,11 @@ class App extends React.Component {
             <Route
               exact path="/profile"
               element={<Profile />}
+            >
+            </Route>
+            <Route
+              exact path="/about"
+              element={<About />}
             >
             </Route>
 

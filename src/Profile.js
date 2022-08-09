@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 function Profile() {
     const { user, isAuthenticated } = useAuth0();
@@ -13,7 +13,7 @@ function Profile() {
                 <Card.Text>
                     Last Vist : {user.updated_at}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
         </Card>
 
