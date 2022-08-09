@@ -12,8 +12,9 @@ class Header extends React.Component {
       <>
         <Navbar collapseOnSelect expand="lg" bg="light" >
           <Navbar.Brand>My Favorite Books</Navbar.Brand>
-          <NavItem><Link to="/" className="nav-link">Home</Link></NavItem>
-          {isAuthenticated && <NavItem><Link to="/profile" className="nav-link">Profile</Link></NavItem>}
+          <NavItem><Link to="/" className="nav-link">Home</Link></NavItem>{'     '}
+          {isAuthenticated && <NavItem><Link to="/profile" className="nav-link">Profile</Link></NavItem>}{'     '}
+          <NavItem><Link to="/about" className="nav-link">ِAbout</Link></NavItem>
           {/* PLACEHOLDER: render a navigation link to the about page */}
           <AuthButtons />
         </Navbar>
