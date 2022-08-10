@@ -12,6 +12,7 @@ import Profile from './Profile';
 import { withAuth0 } from '@auth0/auth0-react';
 import Welcome from './Welcome';
 import About from './About'
+import EditBookModal from './editBookModal';
 
 
 
@@ -43,8 +44,13 @@ class App extends React.Component {
               element={<About />}
             >
             </Route>
+            <Route
+              path='/book/:id'
+              element={<EditBookModal />}
+            >
+            </Route>
 
-            {/* PLACEHOLDER: add a route with a path of '/about' that renders the `About` component */}
+
           </Routes>
           <Footer />
         </Router>
