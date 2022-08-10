@@ -10,7 +10,7 @@ class BestBooks extends React.Component {
     }
   }
   getBooks = async () => {
-    const booksData = await axios.get('http://localhost:3001/books').catch(function (err) { console.log(err) })
+    const booksData = await axios.get(`${process.env.REACT_APP_PORT}/books`).catch(function (err) { console.log(err) })
     this.setState({
       books: booksData.data
     })
